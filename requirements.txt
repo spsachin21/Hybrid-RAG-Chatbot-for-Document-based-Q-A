@@ -1,0 +1,17 @@
+streamlit==1.36.0
+
+# LangChain (v0.2+) split packages
+langchain==0.2.12
+langchain-community==0.2.11
+langchain-core==0.2.38
+
+# Pydantic v2 (needed by LangChain 0.2+)
+pydantic==2.8.2
+pydantic-core==2.20.1
+
+faiss-cpu==1.8.0
+sentence-transformers==3.0.1
+transformers==4.42.3
+torch>=2.2.0      # install per your CUDA/CPU; ok on CPU too
+pypdf==4.2.0
+beautifulsoup4==4.12.3
